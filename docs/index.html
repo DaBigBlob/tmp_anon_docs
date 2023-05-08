@@ -4,8 +4,8 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-   <meta name="description" content="">
-   <title></title>
+   <meta name="description" content="Documentatio for Anonymity Discord Bot.">
+   <title>Anon Docs</title>
 
    <!-- Themes (light + dark) -->
    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
@@ -14,7 +14,49 @@
    <!-- Custom Styles -->
    <style>
      :root {
-       /* --theme-hue: 325; */
+        /* Theme */
+        --theme-color     : #d01c1c;
+
+        /* Borders */
+        --border-radius-s : 5%;
+        --border-radius-m : 10%;
+        --border-radius-l : 20%;
+
+        /* cover */
+        --cover-color                                      : #fff;
+
+        /* Buttons */
+        --cover-button-background                          : #ad003f;
+        --cover-button-background--hover                   : #6b0027;
+        --cover-button-border                              : 1px solid #ad003f;
+        --cover-button-primary-background                  : #29037b;
+        --cover-button-primary-background--hover           : #160143;
+        --cover-button-promary-border                      : 1px solid #29037b;
+        --cover-button-border-radius                       : 50px;
+        --cover-button-padding                             : 0.5em 2rem;
+        --cover-button-text-decoration                     : 10px 20px;
+        --cover-button-transition                          : all var(--duration-fast) ease-in-out;
+
+        /* Heading */
+        --cover-heading-font-size                          : var(--font-size-xxl);
+        --cover-heading-font-size-min                      : ;
+        --cover-heading-font-size-max                      : ;
+        --cover-heading-font-weight                        : normal;
+
+        /* Background */
+        --cover-background-blend-mode                      : ;
+        --cover-background-color                           : ;
+        --cover-background-image                           : linear-gradient(45deg, rgba(173,0,63,1) 0%, rgba(41,3,123,1) 54%, rgba(88,111,240,1) 75%, rgba(0,180,126,1) 100%);
+        --cover-background-mask-color                      : #000;
+        --cover-background-mask-opacity                    : 0.3;
+        --cover-background-mask-visibility                 : ;
+        --cover-background-position                        : center center;
+        --cover-background-repeat                          : no-repeat;
+        --cover-background-size                            : cover;
+
+        /* Blockquote (Subtitle) */
+        --cover-blockquote-color                           : #fff ;
+
      }
    </style>
 </head>
@@ -24,7 +66,16 @@
    <script>
      // Docsify Configuration
      window.$docsify = {
-       // ..
+      name: "Anonymity Docs",
+      auto2top: true,
+      //loadSidebar: true,
+      autoHeader: true,
+      coverpage: '_cover.md',
+      crossOriginLinks: [
+        "" //add later
+      ],
+      notFoundPage: true,
+      //routerMode: 'history', //breaks link
      };
    </script>
 
