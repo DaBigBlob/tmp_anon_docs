@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "load": "npx docsify serve public/",
+    "open": "open 'http://localhost:3000'"
+  },
   "dependencies": {
     "docsify-cli": "^4.4.4"
   }
