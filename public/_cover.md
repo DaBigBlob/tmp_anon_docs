@@ -12,4 +12,4 @@
 
 [Add to Discord](https://discord.com/api/oauth2/authorize?client_id=853527464257257492&permissions=34896610304&scope=bot%20applications.commands)
 [Support](https://discord.gg/PkGsZRCaFU)
-[Get Started](#getting-started)
+[Get Started](#what-can-i-do-with-it)
